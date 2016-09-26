@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 """
-    written by Slacker007 of www.cybersyndicates.com
+    written by Slacker007 of www.cybersyndicates.com & hunttools.org
     Simple python script written for the commandline challenged.  Quick and
     dirty.  And before you complain about whether or not it's suitable for a
     certain situation, ask yourself if the person performing the task SHOULD
