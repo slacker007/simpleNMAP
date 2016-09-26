@@ -2,16 +2,12 @@
 
 """
     written by Slacker007 of www.cybersyndicates.com
-
     Simple python script written for the commandline challenged.  Quick and
     dirty.  And before you complain about whether or not it's suitable for a
     certain situation, ask yourself if the person performing the task SHOULD
     even need a script to get this info... 
 """
-import os
-import sys
 import subprocess
-from collections import OrderedDict
 
 chances = 4
 end_prog = 0
@@ -21,7 +17,6 @@ def menu2( ):
     cidr = raw_input("[*] Please enter the network cider or IP to be scanned "
                       "EX:192.168.1.0/16 or 10.10.1.4 ")
     return cidr
-
 
 def menu1( chances ):
     print "\n[*] (1) Host Discovery: "
